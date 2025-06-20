@@ -6,6 +6,15 @@
 
 ---
 
+## 🎯 Objectives
+
+- Integrate OpenAI GPT-3 with a web application
+- Use IBM Watson APIs for speech recognition and synthesis
+- Build a full-stack app with Flask and modern frontend tools
+- Containerize and deploy with Docker
+
+---
+
 ## ✨ Features
 
 - 🎤 **Voice Interaction:** Speak to the assistant and hear its responses.
@@ -50,9 +59,6 @@
 - **API Keys:**
   - **OpenAI:** Create an account and get an API key.
   - **IBM Cloud:** Provision Speech to Text and Text to Speech services, get their URLs and API keys.
-
-> **Note for CognitiveClass.ai users:**
-> This project was originally a guided project for the [CognitiveClass.ai](https://cognitiveclass.ai/) platform, which provides pre-configured IBM Watson services. If running outside that environment, follow the steps above to obtain your own API keys and service URLs.
 
 ---
 
@@ -105,23 +111,5 @@ docker run -p 8000:8000 voice-chatapp-powered-by-openai
 ### 4. Test Your Assistant
 
 Open your browser and go to [http://localhost:8000](http://localhost:8000) to interact with your voice assistant!
-
----
-
-## 🎯 Learning Objectives
-
-- Integrate OpenAI GPT-3 with a web application
-- Use IBM Watson APIs for speech recognition and synthesis
-- Build a full-stack app with Flask and modern frontend tools
-- Containerize and deploy with Docker
-
----
-
-## 🙏 Acknowledgements
-
-- [OpenAI](https://openai.com/)
-- [IBM Watson](https://www.ibm.com/watson)
-- [CognitiveClass.ai](https://cognitiveclass.ai/)
-- [IBM Developer Skills Network](https://developer.ibm.com/skills/)
 
 ---
